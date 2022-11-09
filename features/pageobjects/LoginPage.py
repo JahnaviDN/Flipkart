@@ -30,3 +30,4 @@ class LoginPage(BaseSettingsPage):
     def clicksignin(self):
         self.DynamicImplicitWait(40)
         self.ClickButton("submitlogin_XPATH")
+        time.sleep(5)
